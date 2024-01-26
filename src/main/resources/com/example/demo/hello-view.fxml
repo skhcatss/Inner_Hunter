@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="1800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Text layoutX="20.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="检索语法:" />
+      <Text layoutX="21.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="API-KEY:" />
+      <TextField fx:id="search" layoutX="82.0" layoutY="25.0" />
+      <PasswordField fx:id="apikey" disable="true" layoutX="81.0" layoutY="60.0" text="200eb44df130f13c2d5f33d12ebbb8e1b1a915f04c22a3cccb16f10ad8fa4a67" />
+      <ChoiceBox fx:id="page_size" layoutX="341.0" layoutY="24.0" prefWidth="80.0" />
+      <Text layoutX="252.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="每页资产条数:" />
+      <Text layoutX="279.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="页码:" />
+      <ChoiceBox fx:id="model" layoutX="538.0" layoutY="24.0" prefWidth="150.0" />
+      <Text layoutX="453.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="鹰图模式选择:" />
+      <ChoiceBox fx:id="type" layoutX="830.0" layoutY="25.0" prefWidth="150.0" />
+      <Text layoutX="760.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="资产类型:" />
+      <Button fx:id="searchbtn" layoutX="1121.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#ToSearch" text="查询" />
+      <Button fx:id="outfilebtn" layoutX="1213.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#ToCsv" text="导出" />
+      <Button fx:id="clearlog" layoutX="1206.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#ToCleanLog" text="清空日志" />
+      <Button fx:id="clearcontent" layoutX="1113.0" layoutY="59.0" mnemonicParsing="false" onMouseClicked="#ToCleanTable" text="清空内容" />
+      <Text layoutX="1069.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="操作:" />
+      <TableView fx:id="table" layoutX="21.0" layoutY="101.0" prefHeight="462.0" prefWidth="1125.0">
+        <columns>
+          <TableColumn fx:id="ip" prefWidth="123.78904342651367" text="IP" />
+          <TableColumn fx:id="url_res" prefWidth="66.95919799804688" text="url_res" />
+            <TableColumn fx:id="port" prefWidth="49.27972412109375" text="端口" />
+            <TableColumn fx:id="web_title" prefWidth="138.64920043945312" text="网站标题" />
+            <TableColumn fx:id="domain" prefWidth="83.0396728515625" text="域名" />
+            <TableColumn fx:id="is_risk_protocol" minWidth="9.590911865234375" prefWidth="68.46035766601562" text="高危协议" />
+            <TableColumn fx:id="component" prefWidth="151.06060791015625" text="应用组件/版本" />
+            <TableColumn fx:id="os" prefWidth="116.402099609375" text="操作系统" />
+            <TableColumn fx:id="company" prefWidth="98.0931396484375" text="备案单位" />
+            <TableColumn fx:id="number" prefWidth="161.3333740234375" text="备案号" />
+            <TableColumn fx:id="country" prefWidth="67.48370361328125" text="国家" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="textAres" layoutX="1162.0" layoutY="101.0" prefHeight="462.0" prefWidth="210.0" />
+      <DatePicker fx:id="starttime" layoutX="539.0" layoutY="61.0" />
+      <DatePicker fx:id="endtime" layoutX="831.0" layoutY="59.0" />
+      <Text layoutX="467.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="开始时间:" />
+      <Text layoutX="761.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="结束时间:" />
+      <TextField fx:id="page" layoutX="342.0" layoutY="60.0" prefHeight="26.0" prefWidth="78.0" />
+      <Text fx:id="consume_quota" layoutX="35.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+      <Text fx:id="rest_quota" layoutX="170.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+
+   </children>
+</AnchorPane>

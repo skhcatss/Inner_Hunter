@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.example.demo.HelloApplication
+Class-Path: jackson-databind-2.14.0-rc1.jar commons-csv-1.8.jar javafx-c
+ ontrols-17.0.2.jar jackson-annotations-2.14.0-rc1.jar javafx-graphics-1
+ 7.0.2.jar javafx-controls-17.0.2-mac.jar javafx-base-17.0.2-mac.jar jav
+ afx-fxml-17.0.2-mac.jar javafx-base-17.0.2.jar javafx-graphics-17.0.2-m
+ ac.jar javafx-fxml-17.0.2.jar jackson-core-2.14.0-rc1.jar
+
