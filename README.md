@@ -1,6 +1,6 @@
 # Inner_Hunter
+![即时AI_img](https://github.com/skhcatss/Inner_Hunter/assets/157777995/8de60785-a67f-4667-a127-526cb62b9cec)
 
-<img src="/Users/skhcats/Downloads/即时AI_img.png" alt="即时AI_img" style="zoom:50%;" />
 
 Inner_Huner是Qianxin-Hunter鹰图（内网和外网）的一款空间测绘gui图形界面化工具，使用Java语言进行开发
 
