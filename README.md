@@ -1,11 +1,11 @@
 
 # Inner_Hunter
 ![即时AI_img](https://github.com/skhcatss/Inner_Hunter/assets/157777995/fb31cfc8-aaac-43be-9689-8ef5262a0792)
-Inner_Huner是Qianxin-Hunter鹰图（内网和外网）的一款空间测绘gui图形界面化工具，使用Java语言进行开发
+Inner_Huner是Qianxin-Hunter鹰图（内网和外网）的一款空间测绘gui图形界面化工具，基于JavaFX框架，使用Java语言进行开发
 
 # 🤖🤖简介
 
-Inner_Huner是一款由Qianxin-Hunter鹰图开发的强大工具，它基于JavaFX框架，提供了一个用户友好的图形界面。这款工具专注于空间测绘，让复杂的操作变得简单直观。通过Inner_Huner，用户可以轻松地进行内网和外网的测绘工作，从而更好地管理和利用网络资源。无论是初学者还是专业人士，Inner_Huner都提供了一个简单易用的界面，使得空间测绘工作更加高效和便捷。
+Inner_Huner是一款基于Qianxin-Hunter（鹰图）Java语言开发的检索工具，它基于JavaFX框架，提供了一个用户友好的图形界面。这款工具专注于空间测绘，让复杂的操作变得简单直观。通过Inner_Huner，用户可以轻松地进行网络的测绘工作，从而更好地管理和利用网络资源。无论是初学者还是专业人士，Inner_Huner都提供了一个简单易用的界面，使得空间测绘工作更加高效和便捷。
 
 
 本工具基于 Hunter 的 API 进行封装，使用时需要用户/内网用户的 API key。
